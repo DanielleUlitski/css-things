@@ -1,0 +1,22 @@
+#parent {
+    width: 600px;
+    height: 500px;
+    background-color: blue;
+    position: absolute;
+}
+#child2 {
+    height: 5%;
+    width: 100%;
+    background-color: red;
+    position: relative;
+    bottom: 90%;
+}
+#child1 {
+    height: 100%;
+    width: 5%;
+    background-color: red;
+    z-index: 1;
+    position: relative;
+    left: 10%;
+    margin-bottom: 0;
+}
