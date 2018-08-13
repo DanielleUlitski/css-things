@@ -1,8 +1,8 @@
 #parent {
-    width: 600px;
-    height: 500px;
+    width: 200px;
+    height: 210px;
     background-color: blue;
-    position: absolute;
+    position: relative;
 }
 #child2 {
     height: 5%;
@@ -19,4 +19,129 @@
     position: relative;
     left: 10%;
     margin-bottom: 0;
+}
+#parent2 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 375px;
+    height: 200px;
+    background-color: rgb(59, 59, 207);
+    position: relative;
+    border-radius: 10px;
+}
+#child21 {
+    background-color: transperent;
+    color: black;
+    font-family: fantasy;
+    font-size: 25px;
+    position: relative;
+    top: 4px;
+    left: 4px;
+}
+#child22 {
+    width: 8%;
+    height: 13%;
+    background-color:grey;
+    position: absolute;
+    bottom: 6px;
+    left: 4px;
+}
+#child23 {
+    width: 8%;
+    height: 56%;
+    background-color:grey;
+    position: absolute;
+    bottom: 6px;
+    left: 55px;
+}
+#child24 {
+    width: 8%;
+    height: 80%;
+    background-color:grey;
+    position: absolute;
+    bottom: 6px;
+    left: 106px;
+}
+#child25 {
+    width: 8%;
+    height: 70%;
+    background-color:grey;
+    position: absolute;
+    bottom: 6px;
+    left: 157px;
+}
+#child26 {
+    width: 8%;
+    height: 60%;
+    background-color:grey;
+    position: absolute;
+    bottom: 6px;
+    left: 208px;
+}
+#child27 {
+    width: 8%;
+    height: 35%;
+    background-color:grey;
+    position: absolute;
+    bottom: 6px;
+    left: 259px;
+}
+#child28 {
+    background-color: transperent;
+    color: black;
+    font-family: fantasy;
+    font-size: 25px;
+    position: absolute;
+    bottom: 4px;
+    right: 4px;
+}
+#magnet {
+    width: 300px;
+    height: 200px;
+    background-color:rgba(255, 0, 0, 0.808);
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: absolute;
+}
+#grey {
+    width: 100%;
+    height: 30%;
+    z-index: 1;
+    background-color: grey;
+    position: relative;
+}
+#white {
+    width: 50%;
+    height: 210%;
+    background-color: white;
+    z-index: 2;
+    position: relative;
+    left: 25%;
+}
+#chocolate {
+    height: 250px;
+    width: 400px;
+    margin-top: 20px;
+    background-color: black;
+    position: relative;
+}
+.container{
+    display: block;
+    min-height: 200px;
+}
+#c1 {
+    height: 4px;
+    width: 98%;
+    background-color: rgb(219, 20, 20);
+    position: absolute;
+    top: 49%;
+    left: 1%;
+}
+.chp {
+    float: left;
+    clear: none;
+    background-color:rgb(156, 68, 33);
+    height: 117px;
+    width: 92px;
+    margin: 4px;
 }
